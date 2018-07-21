@@ -1,0 +1,20 @@
+Regole per una corretta costruzione della mappa sono:
+
+	- La matrice deve essere 30x30 (per ogni riga&colonna).
+
+	-I caratteri permessi per la costruzione della matrice sono
+
+		q	= rappresenta l'angolo alto sinistro del muro.
+		e	= rappresenta l'angolo alto destro del muro.
+		a	= rappresenta l'angolo basso sinistra del muro.
+		d	= rappresenta l'angolo basso destro del muro.
+		|	= rappresenta il muro verticale.
+		_	= rappresenta il muro orizzontale.
+		0	= muro generico completamente bianco.
+		-	= rappresenta il corridoio.
+		#	= pezzo per la costruzione della porta. Esempio ###. Il pezzo # centrale è il perno della porta girevole.
+
+		tutti questi simboli verranno letti da un parser che ne applicherà poi una versione grafica di ogni simbolo sopra elencato
+
+
+Una diversa creazione del file con parametri diversi dalle regole, ne comporterà una non lettura da parte del software.
