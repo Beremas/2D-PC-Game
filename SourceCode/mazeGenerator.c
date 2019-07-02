@@ -4,6 +4,8 @@
 Node *nodes; //Nodes array
 Node *start, *last;
 
+
+
 int init(int width, int height){ //Maze dimensions
 	int i, j;
 	Node *n;
